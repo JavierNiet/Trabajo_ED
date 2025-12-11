@@ -1,10 +1,9 @@
-package Tema4.practica41;
+package Codigo;
 
 import java.util.Scanner;
 
-public class PruebaTiempo {
-
-	public static void main(String[] args) {
+public class PruebTiempo {
+    	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		int horas;
 		int minutos;
@@ -33,6 +32,8 @@ public class PruebaTiempo {
 		System.out.println(c.TiempoResta(b));
 		System.out.println("");
 
+		teclado.close();
+
 		
 		
 	
@@ -40,5 +41,4 @@ public class PruebaTiempo {
 		
 
 	}
-
 }
